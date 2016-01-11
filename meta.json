@@ -2,25 +2,46 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"Ticket ID"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"Comment ID"
+        },
+        {
+            "id": "body",
+            "title":"Comment"
+        },
+        {
+            "id": "public",
+            "title":"Public?"
+        },
+        {
+            "id": "author_id",
+            "title":"Author ID"
+        },
+        {
+            "id": "attachments",
+            "title":"Attachments"
+        },
+        {
+            "id": "via",
+            "title":"Via"
+        },
+        {
+            "id": "metadata",
+            "title":"Meta"
+        },
+        {
+            "id": "created_at",
+            "title":"Created At"
         }
-      */
     ],
-    "title": "Zendesk: Get Ticket Comments" /* Required.A display name for the module */
+    "icon": "dex-zendesk",
+    "title": "Zendesk: Get Ticket Comments"
 }
